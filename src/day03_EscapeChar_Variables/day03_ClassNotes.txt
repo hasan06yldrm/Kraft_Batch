@@ -1,0 +1,71 @@
+files & their extensions:
+			text file  					.txt
+            PDF files					.pdf
+            Pictures					.jpg, .png .gif, .tiff, etc
+   			word document				.doc
+   			excel files					.xlsx
+        	power point					.ppt
+        	java files					.java   (Source Code)
+        	java file                   .class (Byte Code)
+
+
+        how to open preference window:
+		windows:
+			file -> settings
+
+		Mac:
+			IntelliJ IDEA -> Preference
+
+        How to create project?
+        		File -> new -> Project
+
+        How to rename?
+        		right click -> refactor ->
+
+        package: used for storing java files in anorganized manner
+
+        			right click src folder -> new  -> package
+
+        			package name starts with lower_case_letter
+
+        			camelCase
+        Java File:
+        			right click PACKAGE -> new -> Java Class
+
+        			class name  starts with UpperCaseLetter
+
+        			CamelCase
+
+        formatting the codes:
+        		windows:
+        			ctrl + alt + L
+
+        		Mac:
+        			Command + Option + L
+
+        main method:
+
+        		1. type "main" + Enter
+        		2. psvm + Enter
+
+
+        	println():
+        		type "sout" + Enter
+
+
+        ScreenShot  PRTSC     Win+Shift+
+
+        System.out.println() : used for regular outputs (Black- Siyah )
+        System.err.println() : used for printing error messages ( Red Kirmizi)
+
+        Java is Case-Sensitive Language. Kucuk harf buyuk harf duyarli
+
+	// \n >Yeni satýr açýyor
+	// \t >Bir tab boþluk býrakýyor(4)
+	// \b >Backspace geri silme
+	// \r >Satýr baþýna kadar olan karakterleri siler
+	// \" > "
+	// \\ > \
+
+byte byteMin=Byte.MIN_VALUE;        byte byteMax=Byte.MAX_VALUE;        short shortMin= Short.MIN_VALUE;        Short ShortMax= Short.MAX_VALUE;        System.out.println("byteMin = " + byteMin);        System.out.println("byteMax = " + byteMax);        System.out.println("shortMin = " + shortMin);        System.out.println("ShortMax = " + ShortMax);        System.out.println("Integer.MIN_VALUE = " + Integer.MIN_VALUE);        System.out.println("Integer.MAX_VALUE = " + Integer.MAX_VALUE);        System.out.println("Long.MIN_VALUE = " + Long.MIN_VALUE);        System.out.println("Long.MAX_VALUE = " + Long.MAX_VALUE);        System.out.println("Float.MIN_VALUE = " + Float.MIN_VALUE);        System.out.println("Float.MAX_VALUE = " + Float.MAX_VALUE);        System.out.println("Double.MIN_VALUE = " + Double.MIN_VALUE);        System.out.println("Double.MAX_VALUE = " + Double.MAX_VALUE);
+

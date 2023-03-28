@@ -27,8 +27,12 @@ public class C03_Faktoriyel {
     }
 
 
+    public static class C02_Davetiye {
 
 
 
 
+
+
+    }
 }

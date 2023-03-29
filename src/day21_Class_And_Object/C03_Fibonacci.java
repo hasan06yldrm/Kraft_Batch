@@ -8,7 +8,13 @@ public class C03_Fibonacci {
     public static void main(String[] args) {
         fibonacci(9);
         fibonacciSonSayi(9);
-
+        if(fibonacciSonSayi(9)==21){
+            System.out.println(fibonacciSonSayi(9));
+            return;
+        }
+        System.out.println(fibonacciSonSayi(9));
+        System.out.println("merhaba");
+        System.out.println("nasılsınız");
     }
 
     public static void fibonacci(int n) {
@@ -28,7 +34,7 @@ public class C03_Fibonacci {
 
     }
 
-    public static void fibonacciSonSayi(int n) {
+    public static int fibonacciSonSayi(int n) {
 
         int x = 0;
         int y = 1;

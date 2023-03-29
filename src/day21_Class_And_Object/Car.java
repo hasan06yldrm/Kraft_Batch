@@ -10,6 +10,7 @@ public class Car {
     boolean isManual;
 
     public void hizlan(){
+
         System.out.println("Arac hızlanıyor");
     }
     public String begirKarsilastir(){

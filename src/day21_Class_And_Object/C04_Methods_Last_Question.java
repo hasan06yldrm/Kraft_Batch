@@ -12,6 +12,7 @@ public class C04_Methods_Last_Question {
 
     public static void main(String[] args) {
         sayiAl();
+
     }
     public static void sayiAl(){
         Scanner scan=new Scanner(System.in);
@@ -20,12 +21,15 @@ public class C04_Methods_Last_Question {
         System.out.println("2.sayi: ");
         int sayi2=scan.nextInt();
         int sayi3= ucunKati(sayi2);
-        System.out.println(sayilariTopla(sayi1,sayi3));
+        System.out.println(sayilariTopla( sayi1,sayi3));
+
+        System.out.println(sayilariTopla( sayi1,ucunKati(sayi2)));
 
 
     }
 
     private static int sayilariTopla(int x, int y) {
+
         return x+y;
     }
 
@@ -33,7 +37,7 @@ public class C04_Methods_Last_Question {
         if(sayi2%3==0){
             return sayi2;
         }
-        sayi2=sayi2-sayi2%3;
+        sayi2=sayi2-sayi2%3;//return sayi2-sayi2%3; bu da olur
         return sayi2;
     }
 

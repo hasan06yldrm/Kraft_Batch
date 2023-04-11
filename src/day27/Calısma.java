@@ -12,7 +12,7 @@ public class Calısma {
      Neden kin tutuyorsun false */
         String kelime = "Kinlenmek";
         String kontrol = "kin";//"" deneme amaçlı null hata verir kontrol edilmez
-        ilkKelimeKontrol(kelime, kontrol);
+        System.out.println(ilkKelimeKontrol(kelime, kontrol));
 
         //Kullanıcıdan 2 kelime alın kısa kelime yi başta 2 defa, uzun
         // kelimeyi ortada 30 defa kısa kelimeyi tekrar sonda 2 defa yazdıran metodu yazınız.

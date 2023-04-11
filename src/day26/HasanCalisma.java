@@ -7,12 +7,12 @@ public class HasanCalisma {
         //Kullanıcıdan bir input alın ve girilen inputun ilk 3
         // harfini yazan , 3 kelimeden az ise inputu döndüren bir metot yazınız.
         //Merhaba Mer Ali Ali
-        String str = "Hasan";//Has
+        //String str = "aş";//Has
         //Ali Ali
         //iş iş
         //a a
-        System.out.println(ilkUcHarfGetir(str));//Has
-        System.out.println(ilkUcHarfGetir2(str));//Has
+        //System.out.println(ilkUcHarfGetir(str));//Has
+        //System.out.println(ilkUcHarfGetir2(str));//Has
 
         //Kullanıcıdan bir dize sözcük alın ve her
         // boşluğa % ibaresi ekleyin. Merhaba dünya Merhaba%dünya

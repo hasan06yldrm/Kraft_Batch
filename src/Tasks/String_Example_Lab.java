@@ -1,8 +1,6 @@
 package Tasks;
 
-import java.util.Scanner;
-
-public class String_Example_Lamp {
+public class String_Example_Lab {
     public static void main(String[] args) {
 
         //System.out.println(ilkUcHarf("Hasan"));

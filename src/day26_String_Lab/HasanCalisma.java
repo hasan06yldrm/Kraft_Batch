@@ -1,4 +1,4 @@
-package day26;
+package day26_String_Lab;
 
 public class HasanCalisma {
 

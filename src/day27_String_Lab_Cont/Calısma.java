@@ -1,4 +1,4 @@
-package day27;
+package day27_String_Lab_Cont;
 
 public class Calısma {
     public static void main(String[] args) {

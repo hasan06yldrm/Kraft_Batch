@@ -8,4 +8,5 @@ static double pi=3.14;
         System.out.println("Alan hesaplanıyor");
         return 0;
     }
+
 }

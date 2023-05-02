@@ -12,7 +12,7 @@ public class FinalExample {
         //X=5;
     }
     FinalExample(int y){
-       //X=5;
+       //X=5;ilk tanımlamada degeri vermezsek her constructorda X e değer ataması yapmamız lazım
         this.y=y;
     }
 

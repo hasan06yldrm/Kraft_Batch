@@ -3,10 +3,13 @@ package day44_FinalAndHiding;
 public class C extends B {
     int a=5;
     {
-        System.out.println("C instance bloğu çalıştı");
+        System.out.println("C instance metodu çalıştı");
     }
     {
-        System.out.println("C instance bloğu çalıştı");
+        System.out.println("C instance metodu çalıştı");
+    }
+   static {
+        System.out.println("C static instance metodu çalıştı");
     }
 
     public C(){

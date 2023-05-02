@@ -3,7 +3,7 @@ package day44_FinalAndHiding;
 import java.util.ArrayList;
 
 public class Main {
-    //public static String[] arr=new String[10];
+    //public static String[] arr=new String[10];Burda public yazabiliriz ama altta public içinde public olmaz
     public static void main(String[] args) {
 
         C c=new C();
@@ -15,9 +15,9 @@ public class Main {
         B b1=new B();
 
        final String[] strArr={"Harun","Mehmet","Ahmet"};//referans adres final oldu içi değişebilir
-        String[] strAr2={"Orhan","Candu","Ahmet"};
+        String[] strAr2={"Orhan","Cansu","Naime"};
         //strArr=strAr2;olmaz referans değişmez final çünkü adres değişmez
-        strAr2=strArr;//atanır strAr2 final değil
+        strAr2=strArr;//atanır strArr2 final değil
        strArr[0]="Murat";//değişir içi
         System.out.println(strArr[0]);//Murat
 
@@ -25,7 +25,7 @@ public class Main {
         ArrayList<Integer> arrayList2=new ArrayList<>();
         arrayList.add(250);
         arrayList.add(350);
-        arrayList.set(0,600);//600,350 yapılır içi değişir
+        arrayList.set(0,600);//600,350 yapılır içi değişir böyle oldu içi
        // arrayList=arrayList2;//olmaz adres değişti
         arrayList2=arrayList;
         arrayList2.get(0);//600

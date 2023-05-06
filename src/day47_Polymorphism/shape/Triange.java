@@ -3,8 +3,8 @@ package day47_Polymorphism.shape;
 public class Triange extends Shape{//üçgen
     private double side1,side2,side3;
 
-    public Triange(String name, double side1, double side2, double side3) {
-        super(name);
+    public Triange(double side1, double side2, double side3) {
+        super("Triange");
         this.side1 = side1;
         this.side2 = side2;
         this.side3 = side3;

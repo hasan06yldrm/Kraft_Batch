@@ -3,8 +3,8 @@ package day47_Polymorphism.shape;
 public class Cube extends Shape implements Volume{//küp
     private double side;
 
-    public Cube(String name, double side) {
-        super(name);
+    public Cube(double side) {
+        super("Cube");
         setSide(side);
     }
 

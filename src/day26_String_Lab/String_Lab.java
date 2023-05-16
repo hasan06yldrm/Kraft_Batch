@@ -1,6 +1,6 @@
 package day26_String_Lab;
 
-public class HasanCalisma {
+public class String_Lab {
 
 
     public static void main(String[] args) {
@@ -235,6 +235,20 @@ public class HasanCalisma {
             }
         }
         return result;
+    }
+
+    public static String reverse(String str) {
+        try {
+            String result = "";
+            for (int i = str.length() - 1; i >= 0; i--) {
+                result += str.charAt(i);
+            }
+            return result;
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 
 

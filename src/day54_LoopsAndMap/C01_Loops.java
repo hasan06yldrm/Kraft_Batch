@@ -41,7 +41,7 @@ public class C01_Loops {
 
         for (Integer sayi: list) {
            if (sayi<25){
-               list.remove(sayi);
+               list.remove(sayi); // size remove ile düştüğü için sonuncuya bakamadı olmadı foreach ile
            }
         }
         System.out.println(list);
@@ -50,7 +50,7 @@ public class C01_Loops {
      /*  // 25 35 14
         for (int i = 0; i <list.size() ; i++) {
             if(list.get(i)<25){
-                list.remove(i);
+                list.remove(i); //[25,35]
                 i--;
             }
         }
@@ -65,7 +65,7 @@ public class C01_Loops {
         set.add(14);
 
       /*  for (Integer sayi:set) {
-            System.out.println(sayi);
+            System.out.println(sayi);//35 8 25 14 karışık hash tablosuna göre dizdi
         }
 */
 //set içerisinden 25 den küçük olanları silin seti ekrana yazdırın
@@ -76,13 +76,18 @@ public class C01_Loops {
                 set1.add(sayi);
             }
         }
-        System.out.println(set1);
+        System.out.println(set1);[35,25]
 */
 
-        //set içerisinden 25 den küçük olanları silin seti ekrana yazdırın
+        //set içerisinden 25 den küçük olanları silin seti ekrana yazdırın yeni bir set oluşturmadan
         //25 35 8 14
 /*
-    Iterator<Integer> iterator= set.iterator();
+    Iterator<Integer> iterator= set.iterator();//ITERATOR OBJE OBJE İLERLİYOR ARRAY VE DİĞERLERİ İNDEX İLERLİYOR
+
+while(iterator.hasNext()){
+Integer sayi=iterator.next();
+System.out.print(sayi+" ");//35 8 25 14
+}
 
 while(iterator.hasNext()){
     Integer sayi= iterator.next();
@@ -90,38 +95,41 @@ while(iterator.hasNext()){
         iterator.remove();
     }
 }
-        System.out.print(set);
+        System.out.print(set);//[35,25]
 
 
 List<String> list=Arrays.asList("Harun","Ahmet","Hasan");
 
 Iterator itr=list.iterator();
-System.out.println(itr.next());
-System.out.println(itr.next());
-System.out.println(itr.next());
-        System.out.println(itr.hasNext());
+System.out.println(itr.next());//harun
+System.out.println(itr.next());//ahmet
+System.out.println(itr.next());//hasan
+        System.out.println(itr.hasNext());//false bitti sonda
 
-        System.out.println(itr.next());
+        System.out.println(itr.next());//NoSuchElementsException hatası bitti sonda çünkü
 */
         //Foreach metot
         List<String> list= Arrays.asList("Harun","Ahmet","Hasan");
         for (String str:list) {
-            System.out.print(str);
+            System.out.print(str);//tek tek hesini yazdırıyor foreach hepsine mutlaka gidiyor  harun ahmet hasan
         }
         System.out.println();
 
-        list.forEach(x-> System.out.print(x));
+        list.forEach(x-> System.out.println(x));//harun ahmet hasan
+        set.forEach(y-> System.out.println(y));//8 25 14
+        set.forEach(y-> System.out.println(y-2));//6 23 12
         List<Integer> list1=new ArrayList<>();
         set.forEach(y-> list1.add(y));
-        System.out.println(list1);
-
+        System.out.println(list1);//HarunAhmetHasan[35,8,25,14] iç içe atadı ama alan kısıtlı bo forEach METODUNDA ama kısa ve hızlı işlem yapılıyor
 
         for (    ;    ;      ){
 
         }
-
-
-
-        
     }
 }
+/*
+Kısa ve hızlı işlem yapmak için forEach Metodu Tüm datayı döndürüyor foreach gibi
+Obje obje gezmek için Iterator
+Array gibi sayısı belli olanlarda index alabildiklerimizde fori alamadıklarımızda foreach kullanırız
+
+ */

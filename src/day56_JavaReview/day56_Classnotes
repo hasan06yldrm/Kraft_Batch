@@ -1,0 +1,90 @@
+Day 56 JAVA REVIEW
+Topics:
+		1. Primitives: int, double, char, boolean
+		2. Primitive Type Castings: Implicit vs Explicit
+		3. Wrapper class
+		4. String
+		5. String vs StringBuilder vs StringBuffer
+		6. Loops: for & while
+		7. Arrays
+		8. for each loop
+		9. Custom Methods
+		10. Method Overloading
+
+
+        1. Primitives: byte,short, int, long, float, double
+                       char, boolean
+
+        2.Primitive Type Casting : Implicit Explicit
+
+            1. implicit casting: casting smaller primitive type to larger otomatik casting
+            2. explicit casting: casting a larger primitive to smaller manual-narrowing casting
+
+
+        3. Wrapper Class: the objects that represents the primitives (primitiveleri objeler içinde kullanmak için)
+                          Enables us to use primitive data types in Collections and Maps
+                          Also have some useful methods (bazı kullanışlı metodları var)
+
+        4. String:  immutable Degismez
+                    "KraftTech"
+                     012345678
+
+                     Methods: length, charAt, trim, lowercase, uppercase, replace, substring, equals, equalsIgnoreCase
+                              split, endswith, startsWith, toCharArr, indexOf, isEmpty...
+
+        5. StringBuilder and StringBuffer
+                mutable char sequences
+                have reverse() feature
+                slower than String
+
+                StringBuilder : Not Synchronized,
+                                much faster than StringBuffer
+
+                StringBuffer  : Synchronized
+
+        6.Loops  repeated actions tekrarlanan olay
+
+            for  :if the number of repetition is known ne kadar dönüleceği belli ise
+                for( initilization  ; condition ; increment/decrement   ){
+                        statements
+                }
+
+            while: to repeat unknown number of times tekrar sayısı bilinmiyor ise
+            while(condition){
+            statement
+            }
+
+            branching statements:
+            break   :    exit the loop (switch)
+            continue:    jumps to the next iteration of the loop başa dönüyor
+            return  :    exits the current method metoddan çıkıyor
+
+  		7. Arrays  :  Data Structure supporting multiple variables  çoklu veri
+  		              use when multiple data is needed  çoklu data ihtiyaç olunca
+  		              fast
+  		              has index
+  		              supports primitive and non-primitives
+  		              can be multidimensional  iki boyutlu satır sütün
+  		              size is fixed, cannot be used with unknown number of data kapasite sinirli
+
+
+
+        8. for each loop  : iteration is fixed (from first element to last element)  sınırlı yazdırımı
+                            you dont have access to the index numbers, cannot reassign values index e ulaşamıyoruz
+                            data structure is needed to use
+
+    	9. Custom Methods : Function
+    	                    reusability tekrar tekrar kullanımı
+    	                    series of code fragments for a specific task görevi gerçekleştirmek
+
+    	                    public static void/abyDataType methodName(){
+    	                      code perform the task
+    	                    }
+
+    	10. Method Overloading : multiple methods having same name in a class isimler aynı
+    	                         Different Parameters farklı parametre
+    	                         reusability tekrar tekrar kullanımı
+    	                         (Static Polymorphism)
+
+
+

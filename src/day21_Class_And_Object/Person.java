@@ -1,6 +1,7 @@
 package day21_Class_And_Object;
 
 public class Person {
+    public String name;
     //isim,cinsiyet,yas fields
     //uyu(), oyun oyna()
 
